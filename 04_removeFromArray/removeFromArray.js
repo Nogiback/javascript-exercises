@@ -1,6 +1,6 @@
 const removeFromArray = function(givenArray, ...removeItems) {
     //initializing new array for return
-    let newArray = [];
+    const newArray = [];
     //looping through givenArray parameter
     for (const element of givenArray) {
         //checking if any elements in the givenArray are also in removeItems
